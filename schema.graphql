@@ -1,0 +1,11 @@
+type transfer @entity {
+
+  id: ID! #block height + event id
+
+  from: String!
+
+  to: String!
+
+  amount: BigInt!
+
+}
